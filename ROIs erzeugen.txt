@@ -1,0 +1,9 @@
+Kleine Anleitung  um die ROIs auf dem Bild zu erstellen:
+
+--> DrawROI('Brodatz/7/test7.jpg');
+
+
+# img = imread('Tablare/9/test9.jpg');
+# h_im = imshow(img);
+# e = imrect(gca,[55 10 120 120]);
+# BW = createMask(e,h_im);
